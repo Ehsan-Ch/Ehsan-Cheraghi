@@ -12,7 +12,8 @@ I am interested in Machine Learning and AI roles in Denmark, particularly foreca
 | --- | --- |
 | [Aframax Monthly Forecasting](https://github.com/Ehsan-Ch/Aframax-Monthly) | Python and Keras Bidirectional LSTM implementation for monthly shipping-related time series, with preprocessing and iterative retraining. |
 | [Multi-Phone WiFi Control System](https://github.com/Ehsan-Ch/Multi-Phone-WiFi-Control-System) | Python, ADB and scrcpy controllers for Android-device communication, screen mirroring and command dispatch. |
-| [Acea Water Prediction](https://github.com/Ehsan-Ch/Acea-Water-Prediction) | Hydrological dataset configuration and modelling workflow for nine aquifer, spring, river and lake datasets. |
+| [Acea Water Prediction](https://github.com/Ehsan-Ch/Acea-Water-Prediction) | Hydrological modelling prototype covering nine datasets; the public snapshot is incomplete and requires missing helper functions. |
+| [Energy Demand Forecasting Demo](https://github.com/Ehsan-Ch/energy-demand-forecasting-demo) | AI-assisted learning project using synthetic data, chronological evaluation, baseline comparisons and reproducible MAE/RMSE reports. |
 
 Each repository documents its implementation, setup requirements and current limitations. The public code is a portfolio snapshot; numerical performance and deployment claims are included only where supported.
 
