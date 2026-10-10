@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bike-demand-forecasting"
+version = "0.1.0"
+description = "Resumable hourly bike-demand forecasting with chronological evaluation"
+requires-python = ">=3.11"
+dependencies = ["numpy==2.3.5", "pandas==2.2.3", "scikit-learn==1.8.0", "scipy==1.17.0", "matplotlib==3.10.8", "joblib==1.5.3"]
+
+[project.scripts]
+bike-forecast = "bike_forecast.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
