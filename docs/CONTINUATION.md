@@ -61,3 +61,15 @@ remote files before retrying a publish. If local artifacts disappeared, download
 the pinned public archive and rerun the frozen code in a fresh output directory;
 local checkpoint files cannot be guaranteed across a workspace reset. Token
 resets cannot be detected by this code. Continue when the user gives the signal.
+
+## Verified publication and approval boundary
+
+The complete measured project was published and file hashes verified at commit
+`c0710dbd57701d97924ba645f2b5dfd2a4162e9f` on 10 October 2026.
+The profile README has **not** been updated: automatic approval review rejected
+that separate-repository edit as outside the explicit authorization for this
+request. Ask for permission to add the Bike Demand Forecasting link there.
+The repository URL rename also remains pending because the GitHub connector
+has no rename operation and browser fallback needs approval before use.
+Once the user approves these two exact actions, complete them and verify both
+URLs. The experiment is finished; do not retrain or repeat its publication.
