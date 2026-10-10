@@ -1,0 +1,22 @@
+{
+  "verified_on": "2026-10-10",
+  "source_commit": "2786f00fd2215d5e016240ea1eb6b0f02c6cb871",
+  "unit_tests_passed": 16,
+  "verified_stages": 27,
+  "replay_max_absolute_error": 0.0,
+  "new_fits_on_verification": 0,
+  "independent_metrics_recomputed": true,
+  "split_and_selection_audit_passed": true,
+  "cross_process_column_order_test_passed": true,
+  "chart_visual_review_passed": true,
+  "data_kind": "public UCI observed data, not synthetic",
+  "hosted_ci": "not verified",
+  "files": {
+    "reports/RESULTS.md": "d7e50c44b8cb01a147d2ce8ed2fec527d791266c4329a775cfd50aba1f986fa7",
+    "reports/figures/benchmark.svg": "2a5fcfba36177c245ebb969d0c78b8c3898d6b45af1006e27e6a99440eae50aa",
+    "reports/figures/forecast.svg": "c9b40572ef37f6c62467c66b8a801179fef353a19a0a9e99f16afb217a3a4f7f",
+    "reports/manifest.json": "ad000e53b98e82f2424c3ab51237d79683ad48d6b506781609568c9ccc9dc64a",
+    "reports/metrics.json": "88594db40b36b3d497cf6daccb32911230875bdd28036b310c875ef7eec0e389",
+    "reports/predictions.csv": "29a8672ed7db621541f289a227d47a0135edc026cabeb8ce06c651ab2c636c32"
+  }
+}

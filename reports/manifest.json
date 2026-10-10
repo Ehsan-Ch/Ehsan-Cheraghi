@@ -1,0 +1,101 @@
+{
+  "candidates": [
+    "naive_1",
+    "naive_24",
+    "naive_168",
+    "ridge_1",
+    "ridge_100",
+    "hgb_15",
+    "hgb_31"
+  ],
+  "data": {
+    "archive_sha256": "b70182d0d0508e9abbb79306ce5c0cec34869000f8220175ac83d11dbe845401",
+    "first_hour": "2011-01-01 00:00:00",
+    "grid_hours": 17544,
+    "last_hour": "2012-12-31 23:00:00",
+    "missing_hours": 165,
+    "source_rows": 17379,
+    "source_url": "https://archive.ics.uci.edu/static/public/275/bike+sharing+dataset.zip"
+  },
+  "eligible_rows": 17218,
+  "environment": {
+    "joblib": "1.5.3",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "python": "3.12.14",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.0"
+  },
+  "features": [
+    "hour",
+    "hour_sin",
+    "hour_cos",
+    "weekday",
+    "weekday_sin",
+    "weekday_cos",
+    "month",
+    "month_sin",
+    "month_cos",
+    "holiday",
+    "workingday",
+    "elapsed_days",
+    "count_lag_1",
+    "count_lag_2",
+    "count_lag_3",
+    "count_lag_24",
+    "count_lag_48",
+    "count_lag_168",
+    "count_mean_24",
+    "count_std_24",
+    "count_observed_24",
+    "count_mean_168",
+    "count_std_168",
+    "count_observed_168",
+    "temp_lag_1",
+    "atemp_lag_1",
+    "hum_lag_1",
+    "windspeed_lag_1",
+    "weathersit_lag_1",
+    "naive_1",
+    "naive_24",
+    "naive_168"
+  ],
+  "folds": [
+    {
+      "calibrate": "2012-03-01",
+      "end": "2012-07-01",
+      "id": "2012_Q2",
+      "test": "2012-04-01",
+      "tune": "2012-02-01"
+    },
+    {
+      "calibrate": "2012-06-01",
+      "end": "2012-10-01",
+      "id": "2012_Q3",
+      "test": "2012-07-01",
+      "tune": "2012-05-01"
+    },
+    {
+      "calibrate": "2012-09-01",
+      "end": "2013-01-01",
+      "id": "2012_Q4",
+      "test": "2012-10-01",
+      "tune": "2012-08-01"
+    }
+  ],
+  "frame_sha256": "fbda9a8b60268d146911085ce1029a1d3ad1b8d4ff3d00d76df1060d5f087288",
+  "interval_alpha": 0.1,
+  "iterations": 200,
+  "sources": {
+    "docs/PROTOCOL.md": "baed80dcf39067eb746a77bf2fbd5125561422d55655ea50e167b6e968567bd2",
+    "pyproject.toml": "55b2e5f22b7849ebf00ba1a123ec37c286d23a4aa1eef791ce80eee9b12217a3",
+    "src/bike_forecast/__init__.py": "8af4183b632aca50fb071b8fb0c7c0ca227a9153d6c6a4cc1d588eb8aebe9c66",
+    "src/bike_forecast/checkpoints.py": "8f79a31178803b41c72df5a357b817e256fa7d3a3cf9710dae293c08ca5800df",
+    "src/bike_forecast/cli.py": "60b27783207fd0179d7e065e767bbadbf3001b57af01dee07a52ec5910b382b9",
+    "src/bike_forecast/data.py": "545cc337cc822d2a4cc27208657e8d470ece0a8ea87f897da7fdfd1c7a1542ea",
+    "src/bike_forecast/experiment.py": "f9183d7a46d984c937d8b91e4e8ed0a7e22d2125d310e6c97e32a9ce0b3332c5",
+    "src/bike_forecast/features.py": "c426aa54fbb3962d2359ee9e3f1d4ca05b8ef949be6cc234cb83760ac0b995d2",
+    "src/bike_forecast/modeling.py": "b9b3792de603cd6a228d3777a62be57f9eb4ac94a55041a3ebd5e89d78b80676",
+    "src/bike_forecast/reporting.py": "368ee81633f47d42124a72583e9796a863f69c8507bae37ac49223c7d772ea2e"
+  }
+}

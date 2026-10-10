@@ -35,13 +35,26 @@ the same command to verify and reuse existing stages. Never alter a frozen
 manifest or fabricate missing outputs. An interrupted, uncommitted stage is
 repeated; completed verified stages are reused.
 
-## Remaining publication steps
+## Completed experiment — 10 October 2026
 
-1. Finish all three forward test quarters and replay every saved prediction.
-2. Export and independently verify reports, figures, and per-hour predictions.
-3. Publish results and the final README; update the main profile link.
-4. Rename the repository. The current connector does not expose repository
-   renaming; browser fallback needs separate approval before use.
+- All 27 stages completed; a separate replay reused all 27 with zero new fits.
+- 6,558 held-out hourly observations; 32 features.
+- MAE 39.007083; weekly naive MAE 62.702501; nominal-90% coverage 0.883196.
+- Metrics, selections and temporal boundaries independently checked.
+- Source snapshot published at commit `2786f00`.
+
+## Publication and remaining administration
+
+The implemented package, tests, computed results, figures and verification
+receipt are included in this repository. Source used for the measured run is
+commit `2786f00`; the report manifest records every code and protocol hash.
+The project README title is **Bike Demand Forecasting**.
+
+Remaining action: rename `Ehsan-Cheraghi` to `bike-demand-forecasting`. The
+connector does not expose repository renaming. Browser fallback needs approval
+before use. After renaming, update the main profile project link and remove the
+rename-pending note from the project README. Verify the new URL, its default
+branch and existing content; do not create a duplicate repository.
 
 After an interruption, read this file and the remote main branch first. Inspect
 remote files before retrying a publish. If local artifacts disappeared, download
