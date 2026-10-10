@@ -72,3 +72,10 @@ disappeared, the pinned public archive and frozen code can reproduce the run in 
 fresh output directory; local checkpoint files cannot be guaranteed across a
 workspace reset. Token resets cannot be detected by this code. An interrupted
 stage repeats, while completed verified stages are reused.
+
+## Hosted verification status
+
+GitHub Actions run `38041890682` did not start its unit-test job because GitHub
+reported that the account was locked due to a billing issue. The 16 passing
+tests and exact 27-stage replay are local verification; hosted CI is not passing.
+After the account billing restriction is resolved, rerun the hosted test workflow.
