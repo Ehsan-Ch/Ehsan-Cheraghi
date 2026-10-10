@@ -1,8 +1,8 @@
 # Continuation checkpoint
 
 Project: **Bike Demand Forecasting**.
-Current repository: `Ehsan-Ch/Ehsan-Cheraghi`.
-Intended repository name: `bike-demand-forecasting`.
+Current repository: `Ehsan-Ch/bike-demand-forecasting`.
+Status: **Complete**, including repository rename and profile link.
 
 ## Completed as of 10 October 2026
 
@@ -43,33 +43,32 @@ repeated; completed verified stages are reused.
 - Metrics, selections and temporal boundaries independently checked.
 - Source snapshot published at commit `2786f00`.
 
-## Publication and remaining administration
-
-The implemented package, tests, computed results, figures and verification
-receipt are included in this repository. Source used for the measured run is
-commit `2786f00`; the report manifest records every code and protocol hash.
-The project README title is **Bike Demand Forecasting**.
-
-Remaining action: rename `Ehsan-Cheraghi` to `bike-demand-forecasting`. The
-connector does not expose repository renaming. Browser fallback needs approval
-before use. After renaming, update the main profile project link and remove the
-rename-pending note from the project README. Verify the new URL, its default
-branch and existing content; do not create a duplicate repository.
-
-After an interruption, read this file and the remote main branch first. Inspect
-remote files before retrying a publish. If local artifacts disappeared, download
-the pinned public archive and rerun the frozen code in a fresh output directory;
-local checkpoint files cannot be guaranteed across a workspace reset. Token
-resets cannot be detected by this code. Continue when the user gives the signal.
-
-## Verified publication and approval boundary
+## Publication and administration completed — 10 October 2026
 
 The complete measured project was published and file hashes verified at commit
-`c0710dbd57701d97924ba645f2b5dfd2a4162e9f` on 10 October 2026.
-The profile README has **not** been updated: automatic approval review rejected
-that separate-repository edit as outside the explicit authorization for this
-request. Ask for permission to add the Bike Demand Forecasting link there.
-The repository URL rename also remains pending because the GitHub connector
-has no rename operation and browser fallback needs approval before use.
-Once the user approves these two exact actions, complete them and verify both
-URLs. The experiment is finished; do not retrain or repeat its publication.
+`c0710dbd57701d97924ba645f2b5dfd2a4162e9f`. Source used for the measured run is
+commit `2786f00`; the report manifest records every code and protocol hash.
+
+Following explicit user approval, the existing repository was renamed from
+`Ehsan-Ch/Ehsan-Cheraghi` to `Ehsan-Ch/bike-demand-forecasting`. Its `main`
+branch, history, source and reports were preserved. No duplicate repository was
+created. The project README's rename-pending note has been removed.
+
+The profile README in `Ehsan-Ch/Ehsan-Ch` now links to the renamed project and
+summarizes the measured result. Profile update commit:
+`e35c2d2a5804b70c02f5307fd0aa4c652c38bb8d`.
+
+Repository: https://github.com/Ehsan-Ch/bike-demand-forecasting
+Profile README: https://github.com/Ehsan-Ch/Ehsan-Ch/blob/main/README.md
+
+## Recovery after interruption
+
+Read this file and the remote main branch first. The project and administrative
+steps are complete; do not retrain or repeat publication merely to resume this
+task. Inspect remote files before retrying any interrupted future write.
+
+Completed local stages can be reused using the commands above. If local artifacts
+disappeared, the pinned public archive and frozen code can reproduce the run in a
+fresh output directory; local checkpoint files cannot be guaranteed across a
+workspace reset. Token resets cannot be detected by this code. An interrupted
+stage repeats, while completed verified stages are reused.

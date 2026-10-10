@@ -133,8 +133,8 @@ No station-level inventory optimization or causal operational benefit is claimed
 
 Created with **OpenAI Codex assistance for Ehsan Cheraghi** in October 2026.
 This is a new portfolio research project, separate from earlier client work.
-It repurposes the former duplicate-introduction repository; the repository URL
-rename remains a separate administration step.
+It repurposes the former duplicate-introduction repository, renamed from
+`Ehsan-Cheraghi` to `bike-demand-forecasting`.
 
 Code: [MIT](LICENSE). Data: Hadi Fanaee-T (2013),
 [UCI Bike Sharing](https://doi.org/10.24432/C5W894), **CC BY 4.0**.
